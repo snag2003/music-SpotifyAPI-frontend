@@ -1,0 +1,85 @@
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 40px;
+  margin: auto;
+}
+
+.profile__pic-container {
+  text-align: center;
+  width: 100%;
+}
+
+.profile__pic {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  filter: blur(1px);
+  border-radius: 50%;
+}
+
+.profile__text-container {
+  align-self: center;
+  text-align: center;
+}
+
+.profile__text {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.profile__text__more {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.profile__text__name {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.profile__button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile__button-profile {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 10px;
+  width: 100%;
+  border-radius: 2rem;
+  color: white;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background-color: #2f71e5;
+}
+
+.profile__button-profile:hover {
+  cursor: pointer;
+  background: #0255e5;
+  color: white;
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .profile__text {
+    padding: 20px 0; /* Add space above and below the text */
+  }
+
+  .profile__pic {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+}

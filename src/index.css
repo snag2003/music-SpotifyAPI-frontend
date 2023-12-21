@@ -1,0 +1,39 @@
+@import url(./components/Login/Login.css);
+
+@import url(./components/App/App.css);
+
+@import url(./components/Navbar/Navbar.css);
+
+@import url(./components/Profile/Profile.css);
+
+@import url(./components/MediaList/MediaList.css);
+
+@import url(./components/SearchForm/SearchForm.css);
+
+@import url(./components/Footer/Footer.css);
+
+@import url(./components/About/About.css);
+
+@import url(./components/Preloader/Preloader.css);
+
+@import url(./components/ErrorPopup/ErrorPopup.css);
+
+@import urL(./components/Header/Header.css);
+
+@import url(./components/Search/Search.css);
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0 auto;
+  min-height: 100vh;
+}
