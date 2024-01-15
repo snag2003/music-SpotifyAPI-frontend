@@ -39,6 +39,7 @@ function App() {
           const tokens = getParamsFromHash(hash);
           localStorage.setItem("token", tokens.access_token);
           setToken(tokens.access_token);
+          window.history.pushState({}, null, "/home");
         } else {
           setToken(localStorage.getItem("token"));
         }

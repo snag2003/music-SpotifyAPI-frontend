@@ -55,7 +55,6 @@ function About(props) {
                 Google Cloud Server
               </li>
               <li className="about__details-experience-element">Domain</li>
-              <li className="about__details-experience-element">POO</li>
               <li className="about__details-experience-element">API</li>
               <li className="about__details-experience-element">Figma</li>
             </ul>
