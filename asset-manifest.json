@@ -1,14 +1,7 @@
 {
   "files": {
     "main.css": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/css/main.7cec9fd6.css",
-    "main.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/main.332539e7.js",
-    "static/js/401.c07c07d7.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/401.c07c07d7.chunk.js",
-    "static/js/296.123bc6b8.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/296.123bc6b8.chunk.js",
-    "static/js/649.3a5d4c27.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/649.3a5d4c27.chunk.js",
-    "static/js/964.cbb0239d.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/964.cbb0239d.chunk.js",
-    "static/js/630.37f54d35.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/630.37f54d35.chunk.js",
-    "static/js/949.7d180b86.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/949.7d180b86.chunk.js",
-    "static/js/158.812b06df.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/158.812b06df.chunk.js",
+    "main.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/main.b371b3c4.js",
     "static/js/787.c95b5b15.chunk.js": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/787.c95b5b15.chunk.js",
     "static/media/myphoto.jpg": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/media/myphoto.672fb94784051e66f4d9.jpg",
     "static/media/spotify_api_logo.png": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/media/spotify_api_logo.7a364ac0452bd9412a4e.png",
@@ -16,18 +9,11 @@
     "static/media/linkedin.svg": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/media/linkedin.31ec2ffe4b20c627407b21b98ccb8afc.svg",
     "index.html": "https://snag2003.github.io/music-SpotifyAPI-frontend/index.html",
     "main.7cec9fd6.css.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/css/main.7cec9fd6.css.map",
-    "main.332539e7.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/main.332539e7.js.map",
-    "401.c07c07d7.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/401.c07c07d7.chunk.js.map",
-    "296.123bc6b8.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/296.123bc6b8.chunk.js.map",
-    "649.3a5d4c27.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/649.3a5d4c27.chunk.js.map",
-    "964.cbb0239d.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/964.cbb0239d.chunk.js.map",
-    "630.37f54d35.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/630.37f54d35.chunk.js.map",
-    "949.7d180b86.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/949.7d180b86.chunk.js.map",
-    "158.812b06df.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/158.812b06df.chunk.js.map",
+    "main.b371b3c4.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/main.b371b3c4.js.map",
     "787.c95b5b15.chunk.js.map": "https://snag2003.github.io/music-SpotifyAPI-frontend/static/js/787.c95b5b15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cec9fd6.css",
-    "static/js/main.332539e7.js"
+    "static/js/main.b371b3c4.js"
   ]
 }
