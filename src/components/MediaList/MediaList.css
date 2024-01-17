@@ -1,6 +1,6 @@
 .medialist {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .medialist__title {
@@ -13,18 +13,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 100%;
-}
-
-@media screen and (max-width: 900px) {
-  .medialist__container {
-    width: 600px;
-  }
 }
 
 @media screen and (max-width: 600px) {
   .medialist__container {
-    width: 300px;
     justify-content: center;
   }
 }

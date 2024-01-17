@@ -1,5 +1,5 @@
 const CLIENT_ID = "24c30ca667a44b97a27471efb6613a63";
-const CLIENT_SECRET = "64bf977c9d7d4a4f9f3a327bb3708e76";
+const CLIENT_SECRET = "4d972b3a87324507a50ca5675c68a701";
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
 const REDIRECT_URL_AFTER_LOGIN = "http://localhost:3000/home";
 const SPACE_DELIMITER = "%20";

@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
 function Navbar({ onLogout }) {
+  const path = process.env.REACT_APP_FOR_PATH;
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const history = useHistory();
@@ -29,8 +31,8 @@ function Navbar({ onLogout }) {
         <li className="navbar__item">
           <NavLink
             className="navbar__item-link"
-            to="/home"
-            onClick={() => handleNavLinkClick("/home")}
+            to={path + "/home"}
+            onClick={() => handleNavLinkClick(path + "/home")}
           >
             Home
           </NavLink>
@@ -38,8 +40,8 @@ function Navbar({ onLogout }) {
         <li className="navbar__item">
           <NavLink
             className="navbar__item-link"
-            to="/search"
-            onClick={() => handleNavLinkClick("/search")}
+            to={path + "/search"}
+            onClick={() => handleNavLinkClick(path + "/search")}
           >
             Buscador
           </NavLink>
@@ -47,8 +49,8 @@ function Navbar({ onLogout }) {
         <li className="navbar__item">
           <NavLink
             className="navbar__item-link"
-            to="/top-artists"
-            onClick={() => handleNavLinkClick("/top-artists")}
+            to={path + "/top-artists"}
+            onClick={() => handleNavLinkClick(path + "/top-artists")}
           >
             Top Artistas
           </NavLink>
@@ -56,8 +58,8 @@ function Navbar({ onLogout }) {
         <li className="navbar__item">
           <NavLink
             className="navbar__item-link"
-            to="/top-songs"
-            onClick={() => handleNavLinkClick("/top-songs")}
+            to={path + "/top-songs"}
+            onClick={() => handleNavLinkClick(path + "/top-songs")}
           >
             Top Canciones
           </NavLink>
@@ -65,8 +67,8 @@ function Navbar({ onLogout }) {
         <li className="navbar__item">
           <NavLink
             className="navbar__item-link"
-            to="/your-playlists"
-            onClick={() => handleNavLinkClick("/your-playlists")}
+            to={path + "/your-playlists"}
+            onClick={() => handleNavLinkClick(path + "/your-playlists")}
           >
             Tus Playlists
           </NavLink>
@@ -74,14 +76,17 @@ function Navbar({ onLogout }) {
         <li className="navbar__item">
           <NavLink
             className="navbar__item-link"
-            to="/about-creator"
-            onClick={() => handleNavLinkClick("/about-creator")}
+            to={path + "/about-creator"}
+            onClick={() => handleNavLinkClick(path + "/about-creator")}
           >
             Sobre el Creador
           </NavLink>
         </li>
         <li className="navbar__item" onClick={onLogout}>
-          <NavLink className="navbar__item-link navbar__item-logout" to="/">
+          <NavLink
+            className="navbar__item-link navbar__item-logout"
+            to={path + "/"}
+          >
             Cerrar Sesión
           </NavLink>
         </li>
