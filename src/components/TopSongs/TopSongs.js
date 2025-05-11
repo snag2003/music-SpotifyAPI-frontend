@@ -5,7 +5,7 @@ function TopSongs(props) {
   return (
     <>
       <Header onLogout={props.handleLogout} />
-      <MediaList title={"Top Canciones"} mediaItems={props.tracks} />
+      <MediaList title={"Top Songs"} mediaItems={props.tracks} />
     </>
   );
 }

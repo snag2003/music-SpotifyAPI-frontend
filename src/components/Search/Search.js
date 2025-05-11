@@ -7,7 +7,7 @@ function Search(props) {
   const renderSearchResults = () => {
     // Show "No se ha encontrado nada" message if there are no results
     if (props.showNoResults) {
-      return <p className="search__error">No se ha encontrado nada</p>;
+      return <p className="search__error">Nothing found...</p>;
     }
 
     // Show the MediaList component if there are results

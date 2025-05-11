@@ -21,7 +21,7 @@ function Navbar({ onLogout }) {
   };
   return (
     <nav className="navbar">
-      <h1 className="navbar__title">Tu Spotify</h1>
+      <h1 className="navbar__title">Your Spotify</h1>
       <div className="navbar__menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span className="navbar__menu-span"></span>
         <span className="navbar__menu-span"></span>
@@ -43,7 +43,7 @@ function Navbar({ onLogout }) {
             to={path + "/search"}
             onClick={() => handleNavLinkClick(path + "/search")}
           >
-            Buscador
+            Search
           </NavLink>
         </li>
         <li className="navbar__item">
@@ -52,7 +52,7 @@ function Navbar({ onLogout }) {
             to={path + "/top-artists"}
             onClick={() => handleNavLinkClick(path + "/top-artists")}
           >
-            Top Artistas
+            Top Artists
           </NavLink>
         </li>
         <li className="navbar__item">
@@ -61,7 +61,7 @@ function Navbar({ onLogout }) {
             to={path + "/top-songs"}
             onClick={() => handleNavLinkClick(path + "/top-songs")}
           >
-            Top Canciones
+            Top Songs
           </NavLink>
         </li>
         <li className="navbar__item">
@@ -70,7 +70,7 @@ function Navbar({ onLogout }) {
             to={path + "/your-playlists"}
             onClick={() => handleNavLinkClick(path + "/your-playlists")}
           >
-            Tus Playlists
+            Your Playlists
           </NavLink>
         </li>
         <li className="navbar__item">
@@ -79,7 +79,7 @@ function Navbar({ onLogout }) {
             to={path + "/about-creator"}
             onClick={() => handleNavLinkClick(path + "/about-creator")}
           >
-            Sobre el Creador
+            About the Creator
           </NavLink>
         </li>
         <li className="navbar__item" onClick={onLogout}>
@@ -87,7 +87,7 @@ function Navbar({ onLogout }) {
             className="navbar__item-link navbar__item-logout"
             to={path + "/"}
           >
-            Cerrar Sesión
+            Log Out
           </NavLink>
         </li>
       </ul>

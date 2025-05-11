@@ -9,12 +9,10 @@ function Profile(props) {
       <div className="profile__text-container">
         <p className="profile__text">Hola</p>
         <h1 className="profile__text__name">{props.profile.display_name}</h1>
-        <p className="profile__text__more">
-          Aprende más sobre tu estilo musical
-        </p>
+        <p className="profile__text__more">Know more about your music state</p>
         <div className="profile__button-container">
           <button className="profile__button-profile" onClick={handleClick}>
-            Ve a tu perfil
+            Go to your profile
           </button>
         </div>
       </div>

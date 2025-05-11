@@ -9,7 +9,7 @@ function SearchForm(props) {
 
   return (
     <div className="search-form">
-      <h2 className="search-form__title">Busca tus albums favoritos</h2>
+      <h2 className="search-form__title">Search your favorite album</h2>
       <form
         className="search-form__form"
         onSubmit={(e) => props.searchAlbums(e)}
@@ -17,12 +17,12 @@ function SearchForm(props) {
         <input
           className="search-form__input"
           type="text"
-          placeholder="Escribe tus albumes favs..."
+          placeholder="Search your fav albums..."
           value={props.searchKey}
           onChange={(e) => props.setSearchKey(e.target.value)}
         />
         <button className="search-form__button" type={"submit"}>
-          Buscar
+          Search
         </button>
         <button
           className="search-form__button"

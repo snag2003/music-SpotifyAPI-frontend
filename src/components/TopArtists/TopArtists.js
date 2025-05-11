@@ -5,7 +5,7 @@ function TopArtists(props) {
   return (
     <>
       <Header onLogout={props.handleLogout} />
-      <MediaList title={"Top Artistas"} mediaItems={props.artists} />
+      <MediaList title={"Top Artists"} mediaItems={props.artists} />
     </>
   );
 }

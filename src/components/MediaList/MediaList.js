@@ -45,7 +45,7 @@ function MediaList(props) {
                         window.open(mediaItem.external_urls.spotify)
                       }
                     >
-                      Ir a Spotify
+                      Go to Spotify
                     </button>
                   </li>
                 ))}
@@ -56,7 +56,7 @@ function MediaList(props) {
                 className="medialist__show-button"
                 onClick={handleShowMore}
               >
-                Mostrar más
+                Show more
               </button>
             )}
             {visibleItems > 3 && (
@@ -64,7 +64,7 @@ function MediaList(props) {
                 className="medialist__show-button"
                 onClick={handleShowLess}
               >
-                Mostrar menos
+                Show less
               </button>
             )}
           </div>

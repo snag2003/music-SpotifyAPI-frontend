@@ -1,11 +1,13 @@
 .medialist {
-  max-width: 1000px;
   margin: auto;
+  padding: 50px;
 }
 
 .medialist__title {
   font-size: 36px;
+  margin-top: 0;
 }
+
 .medialist__container {
   margin: 0;
   padding: 0;
@@ -71,6 +73,7 @@
   justify-content: center;
   margin-top: 15px;
 }
+
 .medialist__show-button {
   background-color: #3498db;
   color: white;

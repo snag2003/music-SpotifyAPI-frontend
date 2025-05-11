@@ -21,7 +21,7 @@ function About(props) {
           <img className="about__pic" src={myphoto} alt="foto del creador" />
         </div>
         <div className="about__text">
-          <p className="about__text__intro">Hola Soy</p>
+          <p className="about__text__intro">Hi I'm</p>
           <h1 className="about__name">Stephany Acosta</h1>
           <p className="about__role">Full Stack Developer</p>
           <div id="about__socials-container">
@@ -42,7 +42,7 @@ function About(props) {
 
         <div className="about__details-containers">
           <div className="about__details-container">
-            <h3>Experiencia</h3>
+            <h3>Experience</h3>
             <ul className="about__details-experience">
               <li className="about__details-experience-element">HTML</li>
               <li className="about__details-experience-element">CSS</li>
@@ -60,9 +60,9 @@ function About(props) {
             </ul>
           </div>
           <div className="about__details-container">
-            <h3>Educación</h3>
-            <p>Bachelor of Science in Computer Science [En Progreso]</p>
-            <p>Bootcamp in Full Stack Web Developer [En Progreso]</p>
+            <h3>Education</h3>
+            <p>Bachelor of Science in Computer Science [In Progress]</p>
+            <p>Bootcamp in Full Stack Web Developer [Finished]</p>
           </div>
         </div>
       </div>

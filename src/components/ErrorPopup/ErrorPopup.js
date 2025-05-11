@@ -5,7 +5,7 @@ const ErrorPopup = ({ message, onClose }) => {
     <div className="error-popup">
       <div className="error-popup-content">
         <p>{message}</p>
-        <button onClick={onClose}>Cerrar</button>
+        <button onClick={onClose}>Close</button>
       </div>
     </div>
   );

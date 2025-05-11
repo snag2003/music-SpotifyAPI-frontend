@@ -18,13 +18,13 @@ function Login() {
     <div className="login">
       <div className="login__form">
         <img className="login__logo" src={spotifyLogo} alt="Spotify Logo" />
-        <h1 className="login__title">Inicia Sesión a Spotify</h1>
+        <h1 className="login__title">Log In to Spotify</h1>
         <button
           type="submit"
           onClick={() => handleLogin()}
           className="login__button login__button:hover"
         >
-          Login
+          Log In
         </button>
       </div>
     </div>

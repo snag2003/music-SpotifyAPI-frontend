@@ -67,7 +67,7 @@ function App() {
       } catch (error) {
         setLoading(false);
         setError({
-          message: "Un error ha ocurrido. Por favor intentalo más tarde.",
+          message: "An error has occurred. Please try again later.",
         });
       }
     };
