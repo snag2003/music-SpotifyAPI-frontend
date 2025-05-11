@@ -5,7 +5,7 @@ function Playlists(props) {
   return (
     <>
       <Header onLogout={props.handleLogout} />
-      <MediaList title={"Tus Playlists"} mediaItems={props.playlists} />
+      <MediaList title={"Your Playlists"} mediaItems={props.playlists} />
     </>
   );
 }
